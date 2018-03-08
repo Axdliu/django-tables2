@@ -1,7 +1,13 @@
 # Change log
 
-## master
+
+## django_tables2 2.0 (unreleased)
  - Add new method `paginated_rows` to `Table` to replace fallback to non-paginated rows in templates.
+ - Cleaned up templates to add consistancy in what is presented accross all templates.
+ - Added bootstrap4.html template
+ - Fixed translation inconsistancies.
+ - **breaking change** removed the `template` argument to the table constructor, use `template_name` instead.
+ -
 
 ## 1.20.0 (2018-03-08)
  -  Define and use `get_table_data` in `MultiTableMixin` [#538]https://github.com/jieter/django-tables2/pull/538) by [@vCra](https://github.com/vCra) (fixes [#528](https://github.com/jieter/django-tables2/issues/528))
